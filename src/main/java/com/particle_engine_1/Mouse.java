@@ -1,3 +1,12 @@
+/*
+ * Sophie Knox
+ * Particle Engine 1
+ * 9/16/24
+ * This code creates a particle engine of 500 stars. When mouse is dragged stars generate behind the mouse positionn
+ * stars turn yellow when clicked, when mouse moves the star's color change and up/down arrow control speed
+ * This class controls all the mouse and keyboard funtions and setsup the dispay.
+ */
+
 package com.particle_engine_1;
 
 import processing.core.*;
@@ -10,7 +19,7 @@ public class Mouse
     float influenceRadius;
 
 
-    public Mouse(PApplet p, ArrayList<Star> particles, float speedFactor, float influenceRadius)
+    public Mouse(PApplet p, ArrayList<Star> particles, float speedFactor,    float influenceRadius)
     {
         this.p = p;
         this.particles = particles;
